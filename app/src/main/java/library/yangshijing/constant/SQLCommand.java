@@ -11,7 +11,7 @@ public abstract class SQLCommand
     public static String QUERY_2 = "select lbCallNum from LibBook where lbTitle = 'Database Management'";
     public static String QUERY_3 = "select lbTitle, bkAuthor from LibBook";
     public static String QUERY_4 = "select distinct bkPublication from LibBook";
-    public static String QUERY_5 = "select lbCalNum from Checkout where bkIssuedate>'2013-08-01'";
+    public static String QUERY_5 = "select lbCalNum from Checkout where bkIssuedate >'2013-08-01'";
     public static String QUERY_6 = "select lbTitle,bkAuthor from libBook where bkPublication='Wiley'";
     public static String QUERY_7 = "select SUM(coFine) from Checkout where coIsReturned='Y'";
     public static String RETURN_BOOK = "update CheckOut set coIsReturned=? where stdID=? and lbCallNum=?";
