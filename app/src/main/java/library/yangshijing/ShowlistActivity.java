@@ -33,7 +33,7 @@ public class ShowlistActivity extends Activity {
         // bind the data to list
         SimpleCursorAdapter adapter = new SimpleCursorAdapter(
                 getApplicationContext(), R.layout.listitem_yangshijing, cursor,
-                new String[] { "stdFirstName", "coDueDate", "lbTitle" }, new int[] {
+                new String[] {"stdFirstName", "coDueDate", "lbTitle"}, new int[] {
                 R.id.stname, R.id.coduedate, R.id.lbtitle },
                 SimpleCursorAdapter.IGNORE_ITEM_VIEW_TYPE);
         listView.setAdapter(adapter);

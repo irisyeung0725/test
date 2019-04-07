@@ -21,8 +21,6 @@ public abstract class SQLCommand
     public static String CHECKOUT_LIST = "select CheckOut.stdID, lbTitle,coDueDate,coIsReturned,coFine,stdFirstName from CheckOut,Student,LibBook where Student.stdID=Checkout.stdID and LibBook.lbCallNum=CheckOut.lbCallNum";
 
 
-
-
 }
 
 
